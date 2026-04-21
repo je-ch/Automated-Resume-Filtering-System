@@ -1,0 +1,69 @@
+{
+  "name": "Automated Resume filter_10A_61A",
+  "projectId": "d529be03-65a0-446a-9e90-1586abdef556",
+  "description": "Going through resumes stored in dataset folder as objects. Going through each file, performing OCR and matching the keywords. The resumes will be then classified and stored into 'Shortlisted' and 'Rejected' excel files accordingly.",
+  "main": "Sequence.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.Activities": "[2.16.1]",
+    "UiPath.Excel.Activities": "[3.2.1]",
+    "UiPath.IntegrationService.Activities": "[1.17.0]",
+    "UiPath.Mail.Activities": "[2.4.1-preview]",
+    "UiPath.PDF.Activities": "[3.24.0]",
+    "UiPath.System.Activities": "[25.6.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.172.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "c4e4979d-66f8-41ee-b445-be23885eb937",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Sequence.xaml",
+      "uniqueId": "8d349c78-7161-47cd-b853-f1faa50e8fa9",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
